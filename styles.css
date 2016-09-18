@@ -29,7 +29,7 @@ ul, li {
 
 body {
   margin-top: 70px;
-  background-image: url(images/rr.jpg);
+  background-image: url(images/background.jpg);
   background-size: cover;
   font-family: 'David Libre', serif;
 }
@@ -47,6 +47,9 @@ a.see-more {
   background: #DF4A4A;
   padding: .2rem .7rem;
   border-radius: 1rem;
+  -webkit-transition: background .4s;
+  -moz-transition: background .4s;
+  transition: background .4s;
 }
 
 a.see-more:hover {
@@ -78,6 +81,9 @@ header #logo {
   margin: 0;
   padding: 1rem;
   word-spacing: .5rem;
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
 }
 
 header #logo:hover {
@@ -111,6 +117,9 @@ header nav ul li a {
   font-size: 1.25rem;
   text-transform: uppercase;
   padding: 2rem;
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
 }
 
 header nav ul li a:hover {
@@ -137,9 +146,9 @@ header nav ul li a:hover {
   content: "";
   position: absolute;
   height: 14px;
-  width: 1072px;
-  top: 152px;
-  left: 150px;
+  width: 86.7%;
+  top: 150px;
+  left: 125px;
   background: #342B2C;
 }
 
@@ -162,7 +171,7 @@ header nav ul li a:hover {
 }
 
 #photos #photos-wrapper #first-ul li {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* about styles */

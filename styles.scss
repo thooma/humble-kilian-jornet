@@ -28,7 +28,7 @@ ul,li{
 }
 body{
 	margin-top: 70px;
-	background-image: url(images/rr.jpg);
+	background-image: url(images/background.jpg);
 	background-size: cover;
 	font-family: 'David Libre', serif;
 }
@@ -44,6 +44,9 @@ a.see-more{
 	background: #DF4A4A;
 	padding: .2rem .7rem;
 	border-radius: 1rem;
+	-webkit-transition: background .4s;
+	-moz-transition: background .4s;
+	transition: background .4s;
 	&:hover{
 		box-shadow: 2px 4px 3px darken(#DF4A4A, 5%);
 		background: darken(#DF4A4A, 15%);
@@ -72,6 +75,9 @@ header{
 		margin: 0;
 		padding: 1rem;
 		word-spacing: .5rem;
+		transition: background .5s;
+		-webkit-transition: background .5s;
+		-moz-transition: background .5s;
 		&:hover{
 			cursor: pointer;
 			background: #4CAF50;
@@ -96,6 +102,9 @@ header{
 					font-size: 1.25rem;
 					text-transform: uppercase;
 					padding: 2rem;
+					transition: background .5s;
+					-webkit-transition: background .5s;
+					-moz-transition: background .5s;
 					&:hover{
 						background: #DF4A4A;
 					}
@@ -120,9 +129,9 @@ header{
 				content: "";
 				position: absolute;
 				height: 14px;
-				width: 1072px;
-				top: 152px;
-				left: 150px;
+				width: 86.7%;
+				top: 150px;
+				left: 125px;
 				background: #342B2C;
 			}
 		}
@@ -143,7 +152,7 @@ header{
 		}
 		#first-ul{
 			li{
-				margin-bottom: 2rem;
+				margin-bottom: 1rem;
 			}
 		}
 
